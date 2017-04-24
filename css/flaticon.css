@@ -1,0 +1,35 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 24/04/2017 22:54
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="i-"]:before, [class*=" i-"]:before,
+[class^="i-"]:after, [class*=" i-"]:after {   
+  font-family: Flaticon;
+        font-size: 40px;
+font-style: normal;
+}
+
+.i-coffee-cup:before { content: "\f100"; }
+.i-soccer-ball:before { content: "\f101"; }
+.i-game-controller:before { content: "\f102"; }
+.i-headphones:before { content: "\f103"; }
+.i-code:before { content: "\f104"; }
